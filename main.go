@@ -282,7 +282,7 @@ func main() {
 			panic(err)
 		}
 
-		_, err = SetClusterCert(out, serverCa, "https://47.242.248.165:6443")
+		_, err = SetClusterCert(out, serverCa, url)
 		if err != nil {
 			panic(err)
 		}

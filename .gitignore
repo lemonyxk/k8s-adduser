@@ -17,3 +17,4 @@
 *.crt
 *.key
 kubeconfig
+.idea
